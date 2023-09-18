@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+     crossorigin="anonymous">
+     <script src="Contact.js"></script>
+     <script type="text/javascript"
+     src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+(function(){
+   emailjs.init("rabrB3fBZqOZJhpEm");
+})();
+</script>
+<link rel="stylesheet" href="Contact.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <div class="bg-image" 
+     style="background-image:url('OatlantiquelogoOfficiel copy.png');
+            height: 100vh">
+<div class="position-relative" style="top: 50px ">
+    <div class="container border-dark bg-light rounded">
+        <div class="row">
+            <div class="col-md-5 p-5 bg-primary text-white rounded">
+                <h1>Hi , Salut !</h1><br>
+                <h5>C'est ici que vous allez nous envoyer toutes vos questions et L'ADMINISTRATION DE L'UNIVERSITÉ s'en chargera afin de vous repondre dans les meilleurs délais possibles.
+                   <br><br> Alors nous vous invitons à consulter votre boite mail régulièrement. Merci <span>AND</span> <br><br><br><br><br>Good luck ☺️! 
+                   <br><br><br>
+                   <a>Nos Réseaux Sociaux : &nbsp;</a>
+                    <a href="https://web.facebook.com/Harvard/" class="bg-rs">
+                    <i class="fab fa-facebook-f"></i></a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://twitter.com/Harvard" class="bg-rs">
+                    <i class="fab fa-twitter"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.instagram.com/harvard/" class="bg-rs">
+                    <i class="fab fa-instagram"></i></a>&nbsp;&nbsp;
+                    <a href="https://www.linkedin.com/school/harvard-university/" class="bg-rs">
+                    <i class="fab fa-linkedin"></i></a>&nbsp;
+                    <a href="https://www.youtube.com/@harvard" class="bg-rs">
+                    <i class="fab fa-youtube"></i></a>
+                </h5>
+            </div>
+            <div class="col-md-6 py-2 text-primary">
+                 <h1>Formulaire de Contact</h1>
+                 <div class="form-group">
+                    <h5 for="name">Nom et Prénom</h5>
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Entrer votre Nom et Prénom, ici."required/>
+                 </div>
+                 <div class="form-group">
+                    <h5 for="email">Adresse Mail</h5>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Entrer votre Adresse Mail, ici."required/>
+                 </div>
+                 <div class="form-group">
+                    <h5 for="message">Message</h5>
+                    <textarea id="message" maxlength="500" class="form-control" placeholder="J'écris ici ma question avec 500 Caractères au max..." required></textarea>
+                 </div>
+                <button class="btn btn-primary btn-lg btn-block" onclick="sendMail()" >Envoyer</button><br><br>
+                <button type="reset" class="btn btn-primary btn-lg btn-block">Effacer</button><br><br>
+        </div><br><br>
+        <a href="Page-de-connexion-inscription.php" class="btn btn-info bbtn-lg btn-block" role="button" aria-pressed="true">Se déconnecter</a>
+    </div>
+</div>
+</div> 
+<br><br><br><br><br><br><br>
+<!--Partie (Footer)-->
+
+<footer class="footer1">
+    <div class="footer-top">
+        <div class="container">
+            <div class="col1">
+                <a class="brand">Nos Réseaux Sociaux</a>
+                <ul class="media-icons">
+                    <li>
+                        <a href="#" class="bg-facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="bg-linkedin">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col2">
+                <ul class="menu">
+                    <li>
+                        <h4>About</h4>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li>
+                        <a href="#">Customer</a>
+                    </li>
+                    <li>
+                        <a href="#">Carreres</a>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <h4>Resources</h4>
+                    </li>
+                    <li>
+                        <a href="#">Docs</a>
+                    </li>
+                    <li>
+                        <a href="#">Block</a>
+                    </li>
+                    <li>
+                        <a href="#">eBooks</a>
+                    </li>
+                    <li>
+                        <a href="#">Webinars</a>
+                    </li>
+                </ul>
+                <ul class="menu">
+                    <li>
+                        <h4>Contacts</h4>
+                    </li>
+                    <li>
+                        <a href="#">Help</a>
+                    </li>
+                    <li>
+                        <a href="#">Sales</a>
+                    </li>
+                    <li>
+                        <a href="#">Advertise</a>
+                    </li>
+                    <li>
+                        <a href="#">Location</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col3">
+                <h4>Additional Info</h4>
+                <p>
+                    Un paragraphe est une section de texte en prose vouée au développement d'un point
+                    particulier<br>
+                    souvent au moyen de plusieurs phrases, dans la continuité du précédent et du
+                    suivant.<br>
+                    Sur le plan typographique, le paragraphe est compris entre deux alinéas, qui s'analysent
+                    aussi comme une<br>
+                    « ponctuation blanche ».
+                </p><br>
+                <div class="col3">
+                    <p>
+                        Abonnez-vous à notre NewsLeatter
+                    </p>
+                    <form>
+                        <div class="input-wrap">
+                            <input type="email" placeholder="Exemple@gmail.com" />
+                            <button type="submit">
+                                <box-icon type='solid' name='send'>J'abonne</box-icon>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p class="droit-reserver">
+                    <br>
+                    © Copyright 2023, Tous droits réservés.
+                </p>
+                <div class="service-icons"><div class="Systeme-Payement">Système de Payements Sûr et Sécurisés Via Nos Partenaires.</div><br>
+                    <ul class="service-icons">
+                        <li>
+                            <a href="#" class="bg-Amazon">Amazon
+                                <i class="fab fa-cc-Amazon-pay"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-Mastercard">Mastercard
+                                <i class="fab fa-cc-mastercard"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-Apple">Apple
+                                <i class="fab fa-cc-apple-pay"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-PayPal">PayPal
+                                <i class="fab fa-cc-PayPal"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="bg-Visa">Visa
+                                <i class="fab fa-cc-visa"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

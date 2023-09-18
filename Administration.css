@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@500&family=Oswald:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Nabla', cursive;
+}
+
+body {
+    background-image: url('bg4.avif');
+    color: aliceblue;
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+    overflow: hidden;
+    width: 200%;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: end;
+    align-items: baseline;
+    position: relative;
+}
+
+.slide {
+    flex: 5;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.slide h1 {
+    font-size: 24px;
+    color: rgb(146, 238, 234);
+    text-shadow: 1px 1px 10px rgb(29, 28, 7);
+    font-weight: 600;
+}
+
+.slide p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px rgb(29, 28, 7);
+}
+
+h3{
+    color: rgb(243, 248, 248);
+    font-size: 150%;
+    background: linear-gradient(to bottom, rgba(70, 191, 247, 0.5), rgba(20, 80, 231, 0.983), rgba(0, 0, 0, 0.932));
+    padding: 10px;
+    text-shadow: 10px 10px 20px rgb(17, 39, 43);
+    border-radius: 20px;
+    box-shadow: 0px 0px 6px 6px rgb(221, 242, 244);
+    margin: 10px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+}
+
+span{
+    color: rgb(229, 229, 7);
+}
